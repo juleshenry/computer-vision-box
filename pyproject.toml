@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "Computer Vision Box"
+version = "0.1.0"
+description = "Quick box for ML"
+authors = ["Julián Henry"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytesseract = "^0.3.8"
+Pillow = "^9.0.0"
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.masonry.api"
